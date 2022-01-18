@@ -379,15 +379,18 @@ display: flex;
     justify-content: center;
     margin-bottom: 5px;
     text-transform: uppercase;
-    padding-top: 3rem;
-    line-height: 30px;
+    padding-top: 25rem;
+    line-height: 25px;
     border-width: 0;
     padding-bottom: 5rem;
-
+    box-shadow: 0 0 0.70px  rgb(0, 0, 0,50);
+    padding: 10px 25px 10px 25px;
+    margin: 10px 100px 10px 100px;
 }
 
 .input input{
     padding: 15px 85px 15px 85px;
+    
     color: cornsilk;
     background-color: rgba(141, 140, 132, 0.329);
     border-radius: 10px;
@@ -495,10 +498,21 @@ display: flex;
     justify-content: space-evenly;
     gap: 10rem;
     padding-top: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
     
 }
- .bootstrap_1 {
+.bootstrap_1 img{
+    display: flex;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+ .bootstrap_1 p {
      padding-top: 5rem;
+     text-align: center;
+     padding: 20px;
 
    
 }
@@ -651,3 +665,171 @@ display: flex;
     padding-top: 5rem;
     padding-bottom: 15rem;
 }
+
+@media ( max-width: 480px) {
+  .toolbar{
+   font-size: 12px; 
+   color: black;
+   padding: 0;
+   gap: 0;
+   justify-content: center;
+  }
+  .toolbar-tex p{
+      font-size: 10px;
+     
+  }
+  .toolbar-tex{
+      gap: 0;  
+  }
+  .toolbar-tex p{
+      font-size: 10px;
+  }
+  .toolbar-tex a{
+      font-size: 10px;
+  }
+  .header{
+      padding: 0;
+      gap: 0; 
+  }
+  .armada{
+     padding: 0;
+     gap: 0;   
+  }
+  .armada img{
+      width: 50px;
+  }
+  .armada ul{
+      gap: 3px;
+      font-size: 9px;
+  }
+  .armada button{
+      padding: 0;
+      font-size: 5px;
+  }
+  .ramka{
+    padding: 0;
+    text-align: center;
+    padding-top: 4rem;
+    display: block;
+  }
+    .ramka-tex h1{
+      font-size: 25px;
+    }
+    .ramka-tex p{
+    font-size: 20px
+    }
+    .ramka-tex button{
+      padding: 0;
+      font-size: 10px;
+     
+    }
+    .igonka{
+        display: flex;
+        padding: 0;
+        gap: 8px;
+        height: 50vh;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .uslugi{
+      font-size: 15px;  
+    }
+    .uslugi img{
+       width: 25%;
+       height: 2px; 
+    }
+    .class{
+        display: block;
+        padding: 0;
+       
+      
+    }
+    .class-1 img{
+        width: 75px;
+
+    }
+    .class-1{
+      padding: 20px 10px 25px 10px;
+      margin: 2rem;
+    
+    }
+    .class-1 h1{
+       font-size: 20px ;
+    }
+    .class-1 p{
+        font-size: 15px ;
+     }
+     .class-1 a{
+        font-size: 10px ;
+     }
+     .arbaite{
+        font-size: 15px;  
+      }
+     .arbaite img{
+         width: 25%;
+         height: 2px; 
+      }
+      .arbaite_foto{
+         display: block;
+         gap:0;
+      }
+       .arbaiten_1{
+         display: block;
+       }
+       .arbaiten_1 img{
+           display: block;
+           width: 275px;
+           display: flex;
+           justify-content: center;
+           padding: 0;
+           margin: 50px;
+       }
+       .container{
+        display:inline-block;   
+        position:relative;
+       }
+       .container div{
+         font-size: 25px; 
+         display: inline-block; 
+         position: absolute;
+         bottom: 55px;
+         color: rgb(211, 216, 219);  
+         right: 2px;
+       }
+       .arbaiten_2{
+        display: block;
+      }
+      .arbaiten_2 img{
+          display: block;
+          width: 275px;
+          display: flex;
+          justify-content: center;
+          padding: 0;
+          margin: 50px;
+      }
+      .pro_tex{
+        font-size: 15px;  
+      }
+       .pro_tex img{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 20%;
+        height:1px; 
+        display: flex;
+        justify-content: center;
+      }
+      .pro_tex h1{
+         font-size: 20px; 
+      }
+      .pro_img  img{
+        display: block;
+      }
+      .pro_img_1{
+          display: block;
+          margin: 20px;
+      }
+
+
+}
+    

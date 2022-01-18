@@ -1,0 +1,653 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    background-color: rgb(148, 16, 165);
+    gap: 15rem;
+}
+.toolbar p{
+    color: darkorange;
+}
+.toolbar-tex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10rem;
+
+}
+.toolbar-tex a{
+    color: rgb(214, 93, 22);
+}
+.toolbar-tex p{
+    color: rgb(22, 21, 21);
+}
+.header{
+    position: sticky;
+    top: 0;
+}
+.armada{
+    display: flex;
+
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    gap: 8rem;
+}
+.armada img{
+    width: 250px;
+}
+.armada ul{
+    display: flex;
+    gap:3rem ;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+.armada a:hover{
+    transition: .8s;
+    border-bottom: 2px solid rgb(30, 5, 143);
+}
+.armada a {
+  text-decoration: none;
+  color: black;
+}
+.armada button{
+padding: 20px;
+background-color: rgb(169, 18, 214);
+border-radius: 3px;
+font-size: 14px;
+border: none;
+}
+.ramka {
+    background-image: url('../img/photo1642167099.jpeg');
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    justify-content: space-between;
+}
+.ramka h1{
+  
+  font-size: 5rem;
+  color: aliceblue;
+   
+}
+.ramka p{
+  
+    font-size: 3rem;
+    color: aliceblue;
+     
+  }
+  .ramka button{
+    padding: 20px;
+    background-color: rgb(206, 162, 19);
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+
+  } 
+
+  .ramka button:hover{
+    transition: .8s;
+  }
+  .igonka {
+      padding-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      font-size: 3rem;
+  }
+  
+  .igonka a{
+      display: flex;
+      color: rgb(241, 241, 241);
+      padding-top: 5rem;  
+  } 
+
+  .igonka a:hover{
+   transform: rotate(360deg) ;
+   transition: .7s;
+                
+ }
+
+  .uslugi{
+   font-size: 3rem;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   white-space:nowrap;
+   padding: 10px;
+   
+  }
+  .uslugi img {
+      width: 100%;
+  }
+  .class{
+     display: flex;
+     padding-left: 12rem;
+     padding-right: 12rem;
+     justify-content: space-between;
+     text-align: center;
+     gap:3 rem ;     
+  }
+  .class-1 img{
+    width: 200px;
+   
+  }
+ 
+.class-1 {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 45px 30px;
+   
+}
+  
+.class-1 a {
+    color: rgb(87, 19, 175);
+    text-decoration: none;
+}
+.arbaite{
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space:nowrap;
+    padding: 10px;
+    
+}
+.arbaite img{
+    width:100%;
+}
+.arbaite_foto{
+    display: flex;
+    justify-content: center;
+    gap: 5rem; 
+}
+
+.container {
+    display:inline-block;   
+    position:relative;
+}
+.container div { 
+    display: inline-block; 
+    position: absolute; 
+    bottom: 12px; left: 0px; 
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    left: 
+    3rem;
+}
+.arbaiten_1{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    
+}
+.arbaiten_1 img{
+    width: 28rem;
+}
+.arbaiten_2{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 3rem;
+    
+}
+.arbaiten_2 img{
+    width: 28rem;
+}
+.button{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.button button{
+    background-color: blueviolet;
+    padding: 15px 50px 15px 50px;
+    border-radius: 15px;
+    color: cornsilk;
+}
+.pro_tex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    text-align: center;
+    justify-content: space-between;
+    white-space:nowrap;
+    padding: 10px;
+    
+}
+.pro_tex img{
+    width: 100rem;
+}
+.pro_tex h1{
+ font-size: 6rem;
+}
+.pro_img{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.pro_img_1{
+    display: flex;
+    gap: 5rem ;
+}
+.pro_img_1 img{
+    width: 28rem;
+}
+.pro_foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    white-space:nowrap;
+    padding: 10px;
+    
+}
+.pro_foto img{
+    width: 100rem;
+}
+.pro_foto h1{
+ font-size: 6rem;
+}
+.prais{
+display: flex;
+ 
+
+}
+.prais_1{
+    display: flex;
+    justify-content: center;
+    padding-left: 12rem;
+    padding-right: 12rem; 
+   
+}
+.prais_1 img {
+    width: 20rem;
+}
+.prais_1_1{
+  display: flex; 
+  gap:5rem;
+}
+.prais_1 h1{
+    color: blueviolet;
+}
+.prais_button{
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+
+
+}
+.prais_button button{
+    background-color: blueviolet;
+    color: rgb(253, 253, 253);
+    padding: 15px 85px 15px 85px;
+    border-radius: 15px;
+   
+}
+.pro_klient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    text-align: center;
+    justify-content: space-between;
+    white-space:nowrap;
+    padding-top: 4rem;
+    
+}
+.pro_klient img{
+    width: 100rem;
+}
+.pro_klient h1{
+    font-size: 6rem;
+}
+.pro_klient_img{
+      display: flex;
+      justify-content: center;
+      gap: 15rem;
+    
+  } 
+.pro_klient_group {
+    padding-left: 12rem;
+    padding-right: 12rem;
+    display: flex;
+    gap: 7rem;
+}
+  .pro_klient_img img{
+      width: 10rem;
+      
+      
+  }
+  .pro_comanda{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 5rem;
+      text-align: center;
+      justify-content: space-between;
+      white-space:nowrap;
+  }
+.pro_comanda img{
+    width: 100%;
+}
+.pro_comanda h1{
+    font-size: 6rem;
+}
+.comanda{
+    display: flex;
+    justify-content: center;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    gap: 11rem;
+}
+.besplat{
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+}
+.besplat h1{
+    font-size: 30px;
+    padding-left: 5rem;
+    color: rgba(0, 0, 0, 0.733);
+}
+.besplat p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.733);
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    padding-top: 3rem;
+    line-height: 30px;
+    border-width: 0;
+    padding-bottom: 5rem;
+
+}
+
+.input input{
+    padding: 15px 85px 15px 85px;
+    color: cornsilk;
+    background-color: rgba(141, 140, 132, 0.329);
+    border-radius: 10px;
+   
+    
+ 
+}
+.input button{
+    background-color: blueviolet;
+    color: rgb(255, 255, 253);
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    
+}
+.color{
+    background-color: black;
+}
+.niiz{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 5rem;
+    background-color: rgba(51, 50, 48, 0.822);
+   
+    
+}
+.niiz_1 h1{
+    color: rgb(248, 247, 244);
+}
+.niiz_1  p{
+    color: rgba(248, 247, 244, 0.568);
+}
+.nacsh{
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.nacsh_1{
+    display: flex;
+    flex-direction: column;
+
+}
+.nacsh_1 img{
+    width: 20rem;
+}
+
+.nacsh_1_pro{
+    display: flex;
+   
+   
+}
+.maan{
+    display: flex;
+    justify-content: center;
+    
+ 
+}
+.das{
+    display: flex;
+    flex-direction: column;
+}
+.frau{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgblock {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;  
+   
+    
+}
+
+.imgblock img {
+    display:flex;
+     justify-content: center;
+}
+.imgblock span {
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-size: 35px;
+    padding: 3px 5px;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-block: 5rem; 
+    padding-top: 5rem;
+    color: rgb(252, 251, 249);
+
+}
+.maan_1{
+    display: flex;
+    flex-direction: column;
+}
+.der{
+    display: flex;
+    justify-content: center;
+}
+.bootstrap{
+    display:flex;
+    justify-content: space-evenly;
+    gap: 10rem;
+    padding-top: 5rem;
+    
+}
+ .bootstrap_1 {
+     padding-top: 5rem;
+
+   
+}
+.o_nas_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+  
+     
+}
+.o_nas_img img{
+    width: 100rem;
+}
+ .o_nas_tex  p{
+     display: flex;
+     justify-content: center;
+     color: rgba(3, 3, 3, 0.582);
+     font-size: 30px;
+ }
+
+ .class_chem{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .important{
+     background-image: url('../img/Rectangle\ 161.png');
+     height: 100vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     padding-left: 9rem;
+     padding-right: 9rem;
+     justify-content: space-between;
+
+ }
+ .important_tex{
+     display: flex;
+     justify-content: center;
+     font-size: 4rem;
+     padding-top: 2rem;
+ }
+
+ .important_img{
+     display: flex;
+     
+ }
+ .important_img img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17rem;
+    padding-top: 11rem;
+ }
+ .important_img_tex {
+     display: flex;
+     justify-content: center;
+     padding-top: 7rem;
+
+ }
+ .nike{
+     display: flex;
+     flex-direction: column;
+     gap: 5rem;
+ }
+.nike_1{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+.nike_2{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+.yandex{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    padding-top: 10rem;
+}
+.yandex_tex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 15rem;
+  
+}
+.yandex_tex h1{
+    font-size: 3rem;
+
+}
+.yandex_tex h2{
+    color: rgba(83, 80, 80, 0.671);
+}
+.yandex_tex_1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.yandex_tex_1_1{
+    display: flex; 
+    padding-bottom: 6.5rem;
+    color: blueviolet;
+}
+.yandex_tex_1_2{
+    display: flex;
+    flex-direction: column;
+}
+.yandex_tex_1_3{
+    display: flex;
+    flex-direction: column;
+}
+.yandex_tex_2_1{
+    display: flex;
+    gap: 10px;
+
+}
+.yandex_tex_2_2{
+    color: blueviolet;
+    padding-top: 1.5rem;
+    gap: 2rem;
+
+}
+.yandex_tex_2_1 h4{
+    color: rgba(83, 80, 80, 0.671);
+    font-size: 25px;
+}
+.yandex_tex_0{
+    display: flex;
+    gap: 10px;
+
+}
+.yandex_tex_0 h3{
+    color: rgba(83, 80, 80, 0.671);
+    font-size: 25px;
+}
+
+.yandex_tex_0_3{
+    color: blueviolet;
+    padding-top: 1.5rem;
+    gap: 2rem;
+
+}
+.yandex_karta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+}
